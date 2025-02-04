@@ -49,6 +49,3 @@ F:.
 
 ## Demo
 [![Video Demo](https://img.youtube.com/vi/NjSZ2oingwU/0.jpg)](https://youtu.be/NjSZ2oingwU)
-
-## Author
-VThuong99
