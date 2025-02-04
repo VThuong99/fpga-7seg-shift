@@ -19,24 +19,19 @@ This project implements a **7-segment LED shift register** using **Verilog HDL**
 ## Project Structure
 ```
 F:.
+│   .gitignore (Ignored files)
+│   README.md (Project documentation)
 │   test.qpf (Quartus Project File)
 │   test.qsf (Quartus Settings File)
 │   test.v (Verilog Source Code)
-│
-├───db (Compilation Database)
-├───incremental_db (Incremental Compilation Data)
-├───output_files (Compilation Reports and Output Files)
-│       test.sof (FPGA Bitstream File)
-│       test.fit.rpt (Fitting Report)
-│       test.map.rpt (Mapping Report)
-│       test.sta.rpt (Timing Analysis Report)
+│   c5_pin_model_dump.txt (Pin model data)
 ```
 
 ## Installation
 1. Install [Intel Quartus Prime](https://www.intel.com/content/www/us/en/software/programmable/quartus-prime.html)
 2. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/fpga-7seg-shift.git
+   git clone https://github.com/VThuong99/fpga-7seg-shift.git
    ```
 3. Open `test.qpf` in Quartus Prime.
 
@@ -46,14 +41,14 @@ F:.
 3. Generate the bitstream (`.sof` file) for FPGA programming.
 
 ## Usage
-- Load the `test.sof` file onto the FPGA using the Quartus Programmer.
+- Load the compiled project onto the FPGA.
 - Connect the FPGA board and use:
   - **SW0** to control the shift direction.
   - **SW1** to toggle between **1 Hz** and **8 Hz** shifting speed.
 - Observe the **7-segment LED display** shifting as per control inputs.
 
-## License
-This project is licensed under the MIT License.
+## Demo
+[![Video Demo](https://img.youtube.com/vi/NjSZ2oingwU/0.jpg)](https://youtu.be/NjSZ2oingwU)
 
 ## Author
-Your Name
+VThuong99
