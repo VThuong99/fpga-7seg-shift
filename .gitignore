@@ -1,0 +1,19 @@
+# Ignore Quartus-generated files
+db/
+incremental_db/
+output_files/
+*.qws
+*.qmsg
+*.rpt
+*.smsg
+*.summary
+*.sof
+*.jdi
+*.pin
+*.sld
+
+# Ignore backup and temporary files
+*.bak
+*.log
+*.tmp
+*.~*
